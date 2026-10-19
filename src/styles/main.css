@@ -1,1 +1,285 @@
 
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background-color: #111;
+}
+
+.logo {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #aaa;
+}
+
+/* Home Page Hero */
+.hero {
+  background: #252525;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.btn,
+.pagination button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #111;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn {
+  background-color: white;
+  color: #111;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #444;
+}
+
+.pagination button:disabled {
+  background-color: #aaa;
+  color: #eee;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Main Content */
+.content-section {
+  padding: 60px 8%;
+  text-align: center;
+}
+
+.content-section h1,
+.content-section h2 {
+  margin-bottom: 20px;
+}
+
+/* Featured Categories */
+.categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.category-card {
+  background-color: #e5e5e5;
+  padding: 60px 20px;
+  border-radius: 8px;
+  color: #111;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.category-card:hover {
+  background-color: #ccc;
+}
+
+/* About Page */
+.about-page {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-page section {
+  margin-bottom: 35px;
+}
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.product-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  margin-top: 12px;
+}
+
+.product-card p {
+  margin-top: 8px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .product-grid,
+  .categories {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .content-section {
+    padding: 40px 5%;
+  }
+
+  .product-grid,
+  .categories {
+    grid-template-columns: 1fr;
+  }
+
+  .pagination {
+    gap: 10px;
+  }
+}
+  
+/* Product Category Badge */
+.category-badge {
+  display: inline-block;
+  background-color: #222;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-top: 12px;
+}
+
+.product-description {
+  color: #666;
+  font-size: 14px;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+  margin-top: 12px;
+}
+
+/* Product Category Badge */
+.category-badge {
+  display: inline-block;
+  background-color: #222;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+
+

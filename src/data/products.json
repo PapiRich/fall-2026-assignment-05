@@ -1,1 +1,18 @@
-[]
+
+[
+  {"id":1,"name":"Classic Black Hoodie","price":49.99,"category":"Hoodies","description":"Comfortable everyday black hoodie.","imageUrl":"./images/product1.webp"},
+  {"id":2,"name":"Oversized Gray Hoodie","price":54.99,"category":"Hoodies","description":"Relaxed fit with soft cotton fabric.","imageUrl":"./images/product2.jpg"},
+  {"id":3,"name":"Vintage Blue Hoodie","price":59.99,"category":"Hoodies","description":"Vintage-inspired hoodie for casual wear.","imageUrl":"./images/product3.webp"},
+  {"id":4,"name":"Cream Essential Hoodie","price":49.99,"category":"Hoodies","description":"Minimalist hoodie with a comfortable fit.","imageUrl":"./images/product4.webp"},
+  {"id":5,"name":"Forest Green Hoodie","price":55.99,"category":"Hoodies","description":"Warm and stylish everyday hoodie.","imageUrl":"./images/product5.jpg"},
+  {"id":6,"name":"Classic White Tee","price":24.99,"category":"T-Shirts","description":"Simple cotton T-shirt for daily wear.","imageUrl":"./images/product6.webp"},
+  {"id":7,"name":"Black Oversized Tee","price":29.99,"category":"T-Shirts","description":"Relaxed streetwear-inspired T-shirt.","imageUrl":"./images/product7.webp"},
+  {"id":8,"name":"Vintage Graphic Tee","price":34.99,"category":"T-Shirts","description":"Soft T-shirt with a vintage graphic.","imageUrl":"./images/product8.jpg"},
+  {"id":9,"name":"Black CarHartt","price":129.99,"category":"Jacket","description":"Work Wear Jacket.","imageUrl":"./images/product9.webp"},
+  {"id":10,"name":"Washed Gray Tee","price":29.99,"category":"T-Shirts","description":"Casual T-shirt with a washed finish.","imageUrl":"./images/product10.jpg"},
+  {"id":11,"name":"Timberland Boots","price":199.99,"category":"Shoes","description":"Durable work boots.","imageUrl":"./images/product11.jpg"},
+  {"id":12,"name":"Silver Chain","price":89.99,"category":"Accessories","description":"Silver Cuban Necklace.","imageUrl":"./images/product12.webp"},
+  {"id":13,"name":"Watch","price":199.99,"category":"Accessories","description":"Men Luxury everyday watch.","imageUrl":"./images/product13.jpg"},
+  {"id":14,"name":"White Socks","price":15.99,"category":"Accessories","description":"Plain everyday white socks.","imageUrl":"./images/product14.webp"},
+  {"id":15,"name":"Wallet","price":39.99,"category":"Accessories","description":"Blue leather Men's wallet.","imageUrl":"./images/product15.webp"}
+]
